@@ -11,3 +11,6 @@ mod handshake_failure_errors;
 mod mtls;
 #[cfg(all(not(feature = "no-sensitive-tests"), test))]
 mod network;
+
+#[cfg(test)]
+mod ech;
